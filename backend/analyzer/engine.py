@@ -9,7 +9,7 @@ SIGNALS = {
     'impersonation': (22, [r'bank', r'police', r'government', r'customs', r'ceo', r'hr department', r'official', r'support team', r'account manager', r'ministry', r'reserve bank', r'rbi']),
     'credential_request': (24, [r'password', r'otp', r'one[- ]time password', r'pin', r'cvv', r'login', r'verify your identity', r'credentials']),
     'payment_request': (24, [r'pay', r'payment', r'fee', r'gift card', r'crypto', r'bitcoin', r'upi', r'bank transfer', r'send money', r'deposit', r'₹\d+']),
-    'suspicious_link': (20, [r'bit\.ly', r'tinyurl\.com', r't\.co/', r'is\.gd', r'cutt\.ly', r'shorturl\.at', r'rb\.gy', r'\.zip\b', r'\.top\b', r'\.xyz\b', r'\.tk\b', r'\.ml\b', r'\.ga\b', r'\.cf\b', r'\.gq\b', r'\.work\b', r'\.click\b', r'\.loan\b', r'\.buzz\b']),
+    'suspicious_link': (20, [r'https?://',r'bit\.ly', r'tinyurl\.com', r't\.co/', r'is\.gd', r'cutt\.ly', r'shorturl\.at', r'rb\.gy', r'\.zip\b', r'\.top\b', r'\.xyz\b', r'\.tk\b', r'\.ml\b', r'\.ga\b', r'\.cf\b', r'\.gq\b', r'\.work\b', r'\.click\b', r'\.loan\b', r'\.buzz\b']),
     'social_engineering': (15, [r'do not tell', r'keep this secret', r'don.t share', r'confidential', r'only you', r'don.t call', r'avoid verification']),
     'threat_or_penalty': (16, [r'blocked', r'suspended', r'arrest', r'seized', r'legal action', r'penalty', r'fine', r'account will be closed']),
     'too_good_to_be_true': (12, [r'guaranteed', r'free money', r'won', r'winner', r'lottery', r'prize', r'100% profit', r'double your money', r'assistance scheme']),
