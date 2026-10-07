@@ -5,3 +5,4 @@ psycopg[binary]>=3.2,<4.0
 whitenoise>=6.8,<7.0
 groq>=0.15.0
 python-dotenv>=1.0.0
+gunicorn
